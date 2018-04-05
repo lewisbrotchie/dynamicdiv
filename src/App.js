@@ -45,14 +45,6 @@ class App extends Component {
     });
   }
 
-  randColor() {
-    return "rgb(" + this.rand() + "," + this.rand() + "," + this.rand() + ")";
-  }
-
-  rand() {
-    return Math.floor(Math.random() * 256);
-  }
-
   render() {
     const total = this.state.total;
     const boxes = [];
